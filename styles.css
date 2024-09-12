@@ -21,4 +21,14 @@ html,body {
     border-radius: 5px;
     display: grid;
     padding: .5em;
+    grid-template-columns: 10% 80% 10%;
+    color: red;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
 }
