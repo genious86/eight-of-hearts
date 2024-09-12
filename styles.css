@@ -4,14 +4,14 @@ html,body {
 }
 
 :root {
-    --cardheight: 200px;
+    --cardheight: 400px;
 
 }
 
 .container{
     display: flex;
     justify-content: center;
-    margin: 2em;
+    margin: 4em;
 }
 
 .card{
@@ -20,9 +20,10 @@ html,body {
     width: calc(var(--cardheight) * 2/3);
     border-radius: 5px;
     display: grid;
-    padding: .5em;
+    padding: 1em;
     grid-template-columns: 10% 80% 10%;
     color: red;
+    font-size: 3em;
 }
 
 .middle{
@@ -31,4 +32,8 @@ html,body {
     align-items: center;
     text-align: center;
     font-size: 2em;
+}
+
+.bottom{
+    transform: rotate(180deg);
 }
