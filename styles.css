@@ -37,3 +37,13 @@ html,body {
 .bottom{
     transform: rotate(180deg);
 }
+
+.top > div:first-child
+.bottom > div:first-child {
+    padding-left: 4px;
+}
+
+.middle :nth-child(3)
+.middle :nth-child(4) {
+    transform: rotate(180deg);
+}
